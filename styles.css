@@ -1,3 +1,232 @@
 body {
-	background-color: hotpink;
+  color: black;
+  line-height: 1.7em;
+}
+
+.menu {
+  position: absolute;
+  left: 50%;
+  margin-left: -231px;
+}
+
+.menu a {
+  padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0.75;
+}
+
+.menu img {
+  width: 80px;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.hero {
+    padding: 80px;
+    padding-top: 140px;
+    margin-bottom: 20px;
+    background-image: url(http://www.tjejerkodar.se/image/lila_pattern.png);
+    text-align: center;
+}
+
+.hero h1, .hero h3{
+  color: #fff;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+}
+
+h1 {
+  margin: 0px;
+  font-family: "brandon-grotesque", sans-serif;
+  line-height: 1.2em;
+  font-size: 3rem;
+  color: #32037A;
+}
+
+h2 {
+  font-family: "brandon-grotesque", sans-serif;
+  color: #32037A;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+
+h3 {
+    margin: 10px 0;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 100;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.4em;
+    color: #32037A;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+
+a {
+    font-family: "brandon-grotesque", sans-serif;
+    color: #32037A;
+}
+
+.hero.copy {
+    max-width: 700px;
+    margin: auto;
+}
+
+.button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 15px 23px;
+    display: inline-block;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #5EFCDB;
+    color: #23173B;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.71429rem;
+    letter-spacing: 0.2em;
+}
+
+.resor-heading {
+    padding: 40px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.resor-heading h1 {
+  font-size: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.kodresor {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.kodresor a {
+  text-decoration: none;
+}
+
+.kodresor .kodresa {
+  background-position: center;
+  background-size: cover;
+  width: 530px;
+  height: 340px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.barcelona {
+    background-image: url(http://www.tjejerkodar.se/image/aktuell-barcelona2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.berlin {
+  background-image: url(http://www.tjejerkodar.se/image/aktuell-berlin.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.kodresa h2 {
+    background-color: #fff;
+    padding: 12px 10px;
+    margin: 0px auto;
+}
+
+.kurser {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 60px;
+}
+
+.kurser h2 {
+  margin-top: 2rem;
+}
+
+.kurser .kursgrid {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.kurser .kursgrid a {
+  text-decoration: none;
+}
+
+.kurser .kursgrid h2{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.kursgrid a:hover h2 {
+  text-decoration: underline;
+}
+
+.kurser .kursgrid h3{
+  font-size: 1.4rem;
+  color:
+}
+
+.kurs {
+  background-image: url(http://www.tjejerkodar.se/image/bla_pattern.png);
+  background-position: center;
+  width: 340px;
+  height: 340px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.kurs.berlin {
+  background-image: url("http://www.tjejerkodar.se/image/ljuslila_pattern.png");
+}
+
+.kurs.stockholm {
+  background-image: url(http://www.tjejerkodar.se/image/gron_pattern.png);
+}
+
+label {
+    background-color: #FFF;
+    padding: 8px;
+}
+
+partners {
+  text-align: center;
+  padding: 60px;
+}
+
+.footer {
+     padding: 1.5rem 4rem;
+    background-color: #32037A;
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer p {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
 }
