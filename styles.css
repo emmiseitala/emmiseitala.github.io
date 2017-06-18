@@ -36,7 +36,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1.2;
 }
 
@@ -113,7 +113,7 @@ a {
 .kodresor {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .kodresor a {
@@ -129,6 +129,13 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .kodresor .kodresa {
+    width: 100%;
+    min-width: 375px;
+  }
 }
 
 .barcelona {
@@ -215,12 +222,14 @@ label {
 
 .partner-grid {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding-top: 60px;
 }
 
 .partner-grid a {
   text-decoration: none;
+  color: #23173B;
 }
 
 .partner-grid a img {
@@ -229,15 +238,11 @@ label {
 
 .partner-grid p {
   font-size: 0.9rem;
-}
-
-.partner-grid .partner-item {
-  padding-top: 60x;
+  font-weight: 100;
 }
 
 .partner-item {
   width: 500px;
-  margin: 60px;
 }
 
 .footer {
