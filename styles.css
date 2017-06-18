@@ -208,13 +208,40 @@ label {
     padding: 8px;
 }
 
-partners {
+.partners {
   text-align: center;
   padding: 60px;
 }
 
+.partner-grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.partner-grid a {
+  text-decoration: none;
+}
+
+.partner-grid a img {
+  width: 200px;
+}
+
+.partner-grid p {
+  font-size: 0.9rem;
+}
+
+.partner-grid .partner-item {
+  padding-top: 60x;
+}
+
+.partner-item {
+  width: 500px;
+  margin: 60px;
+}
+
 .footer {
-     padding: 1.5rem 4rem;
+    padding: 1.5rem 4rem;
     background-color: #32037A;
     color: white;
     text-align: center;
